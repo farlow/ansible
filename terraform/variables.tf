@@ -21,3 +21,21 @@ variable "public_subnets" {
   description = "Public subnets"
   default     = ["10.0.0.0/18"]
 }
+
+variable "user_name" {
+  type        = string
+  description = "user name"
+  default     = "chris"
+}
+
+variable "user_password" {
+  type        = string
+  description = "user password"
+  sensitive = true
+}
+
+variable "server_name" {
+  type        = list(string)
+  description = "server names"
+  default     = ["ansible-master", "cible1", "cible2", "cible3"]
+}
