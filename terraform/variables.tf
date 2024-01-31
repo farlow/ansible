@@ -25,7 +25,6 @@ variable "public_subnets" {
 variable "user_name" {
   type        = string
   description = "user name"
-  default     = "chris"
 }
 
 variable "user_password" {
@@ -37,5 +36,5 @@ variable "user_password" {
 variable "server_name" {
   type        = list(string)
   description = "server names"
-  default     = ["ansible-master", "cible1", "cible2", "cible3"]
+  default     = ["cible1", "cible2", "cible3"]
 }
