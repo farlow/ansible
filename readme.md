@@ -12,11 +12,19 @@
 ```
 
 ## Usage:  
+- Déploiement 
 ```shell
     git clone https://github.com/farlow/ansible.git
     cd ansible/terraform
     terraform init
     terraform plan
     terraform apply
-    python ../instance_state.py
+```
+- Contrôler l'état des VMs
+```shell
+    apt install python3 python3-venv -y
+    python3 -m venv .env
+    source .env/bin/activate
+    pip3 install boto3
+    python3 ../instance_state.py
 ```
