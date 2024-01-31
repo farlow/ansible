@@ -1,6 +1,7 @@
 # Dépôt pour les fichiers terraform permettant de déployer l'infrastructure pour le cours ansible
 
 ## Prérequis:  
+- un compte AWS
 - terraform  
 - variables d'environnement :  
 ```shell
