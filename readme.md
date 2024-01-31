@@ -14,6 +14,7 @@
 ```shell
     git clone https://github.com/farlow/ansible.git
     cd ansible/terraform
+    terraform init
     terraform plan
     terraform apply
     python ../instance_state.py
