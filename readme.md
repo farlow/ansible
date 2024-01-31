@@ -6,7 +6,7 @@
 ```shell
     export AWS_ACCESS_KEY_ID="access key aws"  
     export AWS_SECRET_ACCESS_KEY="secret de l'access key aws"  
-    export TF_VAR_username="nom de l'utilisateur"  
+    export TF_VAR_user_name="nom de l'utilisateur"  
     export TF_VAR_user_password="mot de passe de l'utilisateur"
 ```
 
